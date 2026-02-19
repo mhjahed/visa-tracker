@@ -1,0 +1,27 @@
+/* ================================
+   APPLICATIONS PAGE STYLES
+   ================================ */
+
+.applications-page {
+  min-height: 100vh;
+  background: var(--bg-primary);
+  padding-bottom: var(--spacing-2xl);
+}
+
+.search-section {
+  margin-bottom: var(--spacing-lg);
+}
+
+.table-section {
+  margin-top: var(--spacing-lg);
+}
+
+/* ================================
+   RESPONSIVE APPLICATIONS
+   ================================ */
+
+@media (max-width: 768px) {
+  .applications-page .page-container {
+    padding: var(--spacing-md);
+  }
+}

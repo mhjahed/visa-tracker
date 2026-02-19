@@ -1,0 +1,238 @@
+/* ========================================
+   ROOT
+======================================== */
+:root {
+  --navbar-height: 70px;
+}
+
+/* ========================================
+   NAVBAR BASE
+======================================== */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--navbar-height);
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid #e5e7eb;
+  z-index: 1000;
+}
+
+body.dark-mode .navbar {
+  background: rgba(13, 17, 23, 0.95);
+  border-bottom: 1px solid #21262d;
+}
+
+.navbar-container {
+  max-width: 1400px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* ========================================
+   LOGO
+======================================== */
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.navbar-flag {
+  width: 40px;
+  border-radius: 6px;
+}
+
+.navbar-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #003366;
+}
+
+body.dark-mode .navbar-title {
+  color: #58a6ff;
+}
+
+/* ========================================
+   DESKTOP MENU
+======================================== */
+.navbar-menu {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-link {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+  color: #4b5563; /* Light mode text */
+}
+
+.navbar-link:hover {
+  background: rgba(0, 51, 102, 0.1);
+  color: #003366;
+}
+
+.navbar-link.active {
+  background: rgba(0, 51, 102, 0.15);
+  color: #003366;
+  font-weight: 600;
+}
+
+/* ========================================
+   DARK MODE - DESKTOP FIX
+======================================== */
+body.dark-mode .navbar-link {
+  color: #ffffff; /* PURE WHITE TEXT */
+}
+
+body.dark-mode .navbar-link svg {
+  color: #ffffff;
+}
+
+body.dark-mode .navbar-link:hover {
+  background: rgba(88, 166, 255, 0.1);
+  color: #58a6ff;
+}
+
+body.dark-mode .navbar-link.active {
+  background: rgba(88, 166, 255, 0.15);
+  color: #58a6ff;
+  font-weight: 600;
+}
+
+/* ========================================
+   THEME TOGGLE
+======================================== */
+.navbar-theme-toggle {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 1px solid #d1d5db;
+  background: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.navbar-theme-toggle:hover {
+  background: #003366;
+  color: white;
+  border-color: #003366;
+}
+
+body.dark-mode .navbar-theme-toggle {
+  background: #161b22;
+  border: 1px solid #30363d;
+  color: white;
+}
+
+body.dark-mode .navbar-theme-toggle:hover {
+  background: #58a6ff;
+  color: #0d1117;
+}
+
+/* ========================================
+   HAMBURGER BUTTON
+======================================== */
+.navbar-toggle {
+  display: none;
+  width: 44px;
+  height: 44px;
+  background: #003366;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+body.dark-mode .navbar-toggle {
+  background: #58a6ff;
+  color: #0d1117;
+}
+
+/* ========================================
+   MOBILE STYLES
+======================================== */
+@media (max-width: 768px) {
+
+  .navbar-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navbar-menu {
+    position: fixed;
+    top: var(--navbar-height);
+    left: 0;
+    width: 100%;
+    height: calc(100vh - var(--navbar-height));
+    flex-direction: column;
+    background: #ffffff;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+    padding-top: 20px;
+  }
+
+  .navbar-menu.active {
+    transform: translateX(0);
+  }
+
+  .navbar-link {
+    width: 100%;
+    padding: 18px 24px;
+    font-size: 18px;
+  }
+
+  /* Dark mode mobile */
+  body.dark-mode .navbar-menu {
+    background: #0d1117;
+  }
+
+  body.dark-mode .navbar-link {
+    color: #ffffff;
+  }
+
+  body.dark-mode .navbar-link:hover {
+    background: #161b22;
+    color: #58a6ff;
+  }
+}
+
+/* ========================================
+   EXTRA SMALL SCREENS
+======================================== */
+@media (max-width: 480px) {
+
+  .navbar-title {
+    font-size: 18px;
+  }
+
+  .navbar-flag {
+    width: 32px;
+  }
+
+  .navbar-link {
+    font-size: 16px;
+  }
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> 866cff3 (Major update - redesigned project)

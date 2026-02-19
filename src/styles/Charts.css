@@ -1,0 +1,80 @@
+/* ================================
+   CHARTS STYLES
+   ================================ */
+
+.chart-container {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  padding: var(--spacing-md);
+}
+
+.chart-container.pie-chart {
+  height: 320px;
+}
+
+.chart-container.line-chart {
+  height: 350px;
+}
+
+/* Chart Card */
+.chart-card {
+  background: var(--bg-card);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  padding: var(--spacing-lg);
+  transition: all var(--transition-fast);
+}
+
+.chart-card:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.chart-card.full-width {
+  grid-column: 1 / -1;
+}
+
+/* Charts Grid */
+.charts-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--spacing-lg);
+}
+
+/* Chart Title (handled by Chart.js but fallback) */
+.chart-title {
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: var(--spacing-md);
+  text-align: center;
+}
+
+/* ================================
+   RESPONSIVE CHARTS
+   ================================ */
+
+@media (max-width: 1024px) {
+  .charts-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .chart-card.full-width {
+    grid-column: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .chart-container {
+    height: 250px;
+  }
+  
+  .chart-container.pie-chart {
+    height: 280px;
+  }
+  
+  .chart-container.line-chart {
+    height: 280px;
+  }
+}
