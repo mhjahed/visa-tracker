@@ -3190,19 +3190,6 @@
     "finalisedDate": null
   },
   {
-<<<<<<< HEAD
-=======
-    "id": "bf6329bf-fafe-4037-ae7b-1b2a9a43c20b",
-    "lodgeDate": "2026-01-18",
-    "applicantName": "JJ",
-    "furtherAssessmentDate": null,
-    "university": "Edith Cowan University",
-    "course": "Masters Program",
-    "status": "Granted",
-    "finalisedDate": "2026-02-18"
-  },
-  {
->>>>>>> 866cff3 (Major update - redesigned project)
     "id": "ce96c830-53fa-47ec-bd8a-2d309e81f901",
     "lodgeDate": "2026-01-13",
     "applicantName": "Afik",
@@ -3341,7 +3328,6 @@
     "course": "",
     "status": "Granted",
     "finalisedDate": "2026-02-18"
-<<<<<<< HEAD
   },
   {
     "id": "9b185249-12f2-491d-87a5-1f0bbd292568",
@@ -3742,7 +3728,15 @@
     "course": "Master of Science",
     "status": "Refused",
     "finalisedDate": "2026-02-19"
-=======
->>>>>>> 866cff3 (Major update - redesigned project)
+  },
+  {
+    "id": "ff1dd311-2ae8-4643-a79a-e7415a32eaab",
+    "lodgeDate": "2026-01-21",
+    "applicantName": "Joy",
+    "furtherAssessmentDate": null,
+    "university": "University of Tasmania",
+    "course": "",
+    "status": "Under Process",
+    "finalisedDate": null
   }
 ]
