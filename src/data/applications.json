@@ -5,9 +5,9 @@
     "applicantName": "Aminul Shojib",
     "furtherAssessmentDate": null,
     "university": "University of Newcastle",
-    "course": "",
-    "status": "Under Process",
-    "finalisedDate": null
+    "course": "Masters Program",
+    "status": "Granted",
+    "finalisedDate": "2026-02-20"
   },
   {
     "id": "a2c4c27d-2af8-4e80-9d1e-96911ef3f118",
@@ -916,8 +916,8 @@
     "furtherAssessmentDate": null,
     "university": "Edith Cowan University",
     "course": "",
-    "status": "Under Process",
-    "finalisedDate": null
+    "status": "Refused",
+    "finalisedDate": "2026-02-20"
   },
   {
     "id": "9a7ec504-8821-45b3-ad90-b5c7e89f1cd6",
@@ -1006,8 +1006,8 @@
     "furtherAssessmentDate": null,
     "university": "Murdoch University",
     "course": "",
-    "status": "Under Process",
-    "finalisedDate": null
+    "status": "Granted",
+    "finalisedDate": "2026-02-20"
   },
   {
     "id": "f5edf24d-1133-4bbb-9128-f98f753a1cdd",
@@ -1066,8 +1066,8 @@
     "furtherAssessmentDate": null,
     "university": "University of Tasmania",
     "course": "",
-    "status": "Under Process",
-    "finalisedDate": null
+    "status": "Refused",
+    "finalisedDate": "2026-02-20"
   },
   {
     "id": "80e564bb-6fe1-42c4-8be7-9f43308f8194",
@@ -1116,8 +1116,8 @@
     "furtherAssessmentDate": null,
     "university": "Victoria University",
     "course": "",
-    "status": "Under Process",
-    "finalisedDate": null
+    "status": "Refused",
+    "finalisedDate": "2026-02-20"
   },
   {
     "id": "fcd9007d-6ded-4b3c-a199-150a9337e322",
@@ -1272,12 +1272,12 @@
   {
     "id": "2535e707-cb71-4ccf-8ee5-2a2c220f059d",
     "lodgeDate": "2026-01-14",
-    "applicantName": " Samira (withspouse)",
+    "applicantName": " Samira (with spouse)",
     "furtherAssessmentDate": null,
     "university": "La Trobe University",
     "course": "",
-    "status": "Under Process",
-    "finalisedDate": null
+    "status": "Refused",
+    "finalisedDate": "2026-02-20"
   },
   {
     "id": "c7b14f9d-a386-4185-bfcf-1c6b15550139",
@@ -1316,8 +1316,8 @@
     "furtherAssessmentDate": null,
     "university": "Murdoch University",
     "course": "",
-    "status": "Under Process",
-    "finalisedDate": null
+    "status": "Granted",
+    "finalisedDate": "2026-02-20"
   },
   {
     "id": "7f96a07d-7561-4279-87ac-8eb1e6c9f690",
@@ -1336,8 +1336,8 @@
     "furtherAssessmentDate": null,
     "university": "UHE",
     "course": "",
-    "status": "Under Process",
-    "finalisedDate": null
+    "status": "Refused",
+    "finalisedDate": "2026-02-20"
   },
   {
     "id": "bb1af784-f141-4e8e-ad41-582305d60050",
@@ -1366,8 +1366,8 @@
     "furtherAssessmentDate": null,
     "university": "CQ University",
     "course": "",
-    "status": "Under Process",
-    "finalisedDate": null
+    "status": "Granted",
+    "finalisedDate": "2026-02-20"
   },
   {
     "id": "f62301ea-3e43-4a69-bb0e-2e9abd913e2e",
@@ -1426,8 +1426,8 @@
     "furtherAssessmentDate": null,
     "university": "University of Tasmania",
     "course": "Master of Science",
-    "status": "Under Process",
-    "finalisedDate": null
+    "status": "Refused",
+    "finalisedDate": "2026-02-20"
   },
   {
     "id": "2a1df00c-89ea-4646-81b1-24317fe9a816",
@@ -1447,7 +1447,7 @@
     "university": "RMIT",
     "course": "Bachelor of IT",
     "status": "Granted",
-    "finalisedDate": "2026-02-21"
+    "finalisedDate": "2026-02-14"
   },
   {
     "id": "70902dfe-ecbc-4c47-a6f8-2293cbb3373d",
@@ -1916,8 +1916,8 @@
     "furtherAssessmentDate": null,
     "university": "University of Tasmania",
     "course": "Masters Program",
-    "status": "Under Process",
-    "finalisedDate": null
+    "status": "Granted",
+    "finalisedDate": "2026-02-20"
   },
   {
     "id": "67224af7-3a62-48bd-a1a7-4de5a33f347c",
@@ -1926,8 +1926,8 @@
     "furtherAssessmentDate": null,
     "university": "Charles Sturt University",
     "course": "Bachelor Program",
-    "status": "Under Process",
-    "finalisedDate": null
+    "status": "Granted",
+    "finalisedDate": "2026-02-20"
   },
   {
     "id": "a51cdf93-5207-469f-a3dc-d0b15e0a6a94",
@@ -2761,7 +2761,7 @@
   },
   {
     "id": "5ac054ef-b36a-4cab-9e58-ed154bdce821",
-    "lodgeDate": "2026-02-02",
+    "lodgeDate": "2026-01-29",
     "applicantName": " Nur (with spouse)",
     "furtherAssessmentDate": null,
     "university": "Flinders University",
@@ -3155,9 +3155,9 @@
     "applicantName": "Zuwaireea",
     "furtherAssessmentDate": null,
     "university": "Queensland University of Technology",
-    "course": "Bachelor Program",
-    "status": "Under Process",
-    "finalisedDate": null
+    "course": "Bachelor of Arts",
+    "status": "Refused",
+    "finalisedDate": "2026-02-20"
   },
   {
     "id": "a74f09a1-9b38-44b5-956f-aa1ca640dae4",
@@ -3426,8 +3426,8 @@
     "furtherAssessmentDate": null,
     "university": "University of Tasmania",
     "course": "Masters Program",
-    "status": "Under Process",
-    "finalisedDate": null
+    "status": "Granted",
+    "finalisedDate": "2026-02-20"
   },
   {
     "id": "a6db25c5-8692-4235-ab06-d2b7274df071",
@@ -3736,6 +3736,316 @@
     "furtherAssessmentDate": null,
     "university": "University of Tasmania",
     "course": "",
+    "status": "Under Process",
+    "finalisedDate": null
+  },
+  {
+    "id": "4f11fa8d-9b3f-4a14-b33e-711b8bb80210",
+    "lodgeDate": "2026-01-18",
+    "applicantName": "Eiasin",
+    "furtherAssessmentDate": null,
+    "university": "Torrens University",
+    "course": "",
+    "status": "Refused",
+    "finalisedDate": "2026-02-20"
+  },
+  {
+    "id": "886e2020-373c-42a5-acf9-d93925cef66e",
+    "lodgeDate": "2026-01-20",
+    "applicantName": "Mahbub",
+    "furtherAssessmentDate": null,
+    "university": "CQ University",
+    "course": "",
+    "status": "Granted",
+    "finalisedDate": "2026-02-20"
+  },
+  {
+    "id": "eebde9a4-a5e2-4eb2-bc74-44992de49828",
+    "lodgeDate": "2026-01-20",
+    "applicantName": "Md Aslam",
+    "furtherAssessmentDate": null,
+    "university": "CQ University",
+    "course": "",
+    "status": "Granted",
+    "finalisedDate": "2026-02-20"
+  },
+  {
+    "id": "6dca5b92-3117-4c7f-8916-34e3fab99e75",
+    "lodgeDate": "2026-01-20",
+    "applicantName": "Adiba",
+    "furtherAssessmentDate": null,
+    "university": "Murdoch University",
+    "course": "Master of Science",
+    "status": "Refused",
+    "finalisedDate": "2026-02-20"
+  },
+  {
+    "id": "9b7fc43e-a417-4020-a773-1066c362c24f",
+    "lodgeDate": "2026-01-18",
+    "applicantName": "Jamil",
+    "furtherAssessmentDate": null,
+    "university": "Torrens University",
+    "course": "Bachelor Program",
+    "status": "Granted",
+    "finalisedDate": "2026-02-20"
+  },
+  {
+    "id": "5b3a34f2-2142-43c6-8146-3964448a5c03",
+    "lodgeDate": "2026-01-20",
+    "applicantName": "Asif Haque",
+    "furtherAssessmentDate": null,
+    "university": "Murdoch University",
+    "course": "",
+    "status": "Refused",
+    "finalisedDate": "2026-02-20"
+  },
+  {
+    "id": "a1178f37-c3cf-4d59-bfc9-31dec3051dd8",
+    "lodgeDate": "2026-01-21",
+    "applicantName": "Lisan",
+    "furtherAssessmentDate": null,
+    "university": "University of Tasmania",
+    "course": "",
+    "status": "Granted",
+    "finalisedDate": "2026-02-20"
+  },
+  {
+    "id": "e4c7c62c-c4ac-4a47-abbf-ffda0cdaeb66",
+    "lodgeDate": "2026-01-18",
+    "applicantName": "Monir",
+    "furtherAssessmentDate": null,
+    "university": "University of Wollongong",
+    "course": "",
+    "status": "Granted",
+    "finalisedDate": "2026-02-20"
+  },
+  {
+    "id": "044e8c58-7743-49f6-864c-e91089aa994e",
+    "lodgeDate": "2026-01-19",
+    "applicantName": "Muntasir",
+    "furtherAssessmentDate": null,
+    "university": "Institution",
+    "course": "",
+    "status": "Refused",
+    "finalisedDate": "2026-02-20"
+  },
+  {
+    "id": "9168501d-ed03-4610-832e-c63ba8136545",
+    "lodgeDate": "2026-01-17",
+    "applicantName": "Shahriar Ahmed",
+    "furtherAssessmentDate": null,
+    "university": "Torrens University",
+    "course": "",
+    "status": "Refused",
+    "finalisedDate": "2026-02-20"
+  },
+  {
+    "id": "0730170b-e3e6-4d75-869b-d5089b3e374e",
+    "lodgeDate": "2026-01-12",
+    "applicantName": "Pushpita Dey",
+    "furtherAssessmentDate": null,
+    "university": "Torrens University",
+    "course": "Bachelor of IT",
+    "status": "Granted",
+    "finalisedDate": "2026-02-20"
+  },
+  {
+    "id": "71b0e7df-cc35-4e08-9e69-b0c65cce27a7",
+    "lodgeDate": "2026-01-12",
+    "applicantName": "Eusha Alavi Arshi",
+    "furtherAssessmentDate": null,
+    "university": "University of Tasmania",
+    "course": "Bachelor of Engineering",
+    "status": "Granted",
+    "finalisedDate": "2026-02-20"
+  },
+  {
+    "id": "9c9cfdc3-c221-4ccd-bec7-ff08d9d0e8fb",
+    "lodgeDate": "2026-01-09",
+    "applicantName": "Fardin Ahmed",
+    "furtherAssessmentDate": null,
+    "university": "Edith Cowan University",
+    "course": "",
+    "status": "Refused",
+    "finalisedDate": "2026-02-20"
+  },
+  {
+    "id": "f7b606bc-342b-4c5b-a223-64a5067b71ff",
+    "lodgeDate": "2026-01-19",
+    "applicantName": "Tahsin Ahmed",
+    "furtherAssessmentDate": null,
+    "university": "Edith Cowan University",
+    "course": "Bachelor Program",
+    "status": "Granted",
+    "finalisedDate": "2026-02-20"
+  },
+  {
+    "id": "45fa1755-0d4c-4e42-a96c-fbc6d33e9e1e",
+    "lodgeDate": "2026-01-11",
+    "applicantName": "Ashif Entaz",
+    "furtherAssessmentDate": null,
+    "university": "Murdoch University",
+    "course": "",
+    "status": "Granted",
+    "finalisedDate": "2026-02-20"
+  },
+  {
+    "id": "f46f4678-cc3d-4292-a2cc-ead829517dd2",
+    "lodgeDate": "2026-01-23",
+    "applicantName": "Shahriar Firoz",
+    "furtherAssessmentDate": null,
+    "university": "Torrens University",
+    "course": "",
+    "status": "Granted",
+    "finalisedDate": "2026-02-20"
+  },
+  {
+    "id": "89a2b740-204d-4c52-8480-6572ff16288f",
+    "lodgeDate": "2026-01-15",
+    "applicantName": "Bishal",
+    "furtherAssessmentDate": null,
+    "university": "Torrens University",
+    "course": "",
+    "status": "Refused",
+    "finalisedDate": "2026-02-20"
+  },
+  {
+    "id": "74ce7ecf-37a3-496f-8767-346fbcf81a40",
+    "lodgeDate": "2026-02-18",
+    "applicantName": "Razo",
+    "furtherAssessmentDate": null,
+    "university": "CQ University",
+    "course": "Masters Program",
+    "status": "Under Process",
+    "finalisedDate": null
+  },
+  {
+    "id": "b5bde3f4-4981-415a-a965-85d5d0bee426",
+    "lodgeDate": "2026-02-09",
+    "applicantName": "Shajeeb ",
+    "furtherAssessmentDate": null,
+    "university": "Murdoch University",
+    "course": "Master of Business Administration",
+    "status": "Under Process",
+    "finalisedDate": null
+  },
+  {
+    "id": "ef0df97d-c024-492f-bd9e-e2067c3253f2",
+    "lodgeDate": "2026-01-19",
+    "applicantName": "Nayem",
+    "furtherAssessmentDate": null,
+    "university": "RMIT",
+    "course": "Bachelor Program",
+    "status": "Under Process",
+    "finalisedDate": null
+  },
+  {
+    "id": "73b0b8b3-16d2-4edf-b350-4c8d7b752344",
+    "lodgeDate": "2026-02-02",
+    "applicantName": "Tanjim Sahil",
+    "furtherAssessmentDate": null,
+    "university": "Charles Sturt University",
+    "course": "Bachelor of IT",
+    "status": "Under Process",
+    "finalisedDate": null
+  },
+  {
+    "id": "9e6055c7-6faf-4332-954b-674317002124",
+    "lodgeDate": "2026-01-20",
+    "applicantName": "Rimi",
+    "furtherAssessmentDate": null,
+    "university": "Queensland University of Technology",
+    "course": "",
+    "status": "Under Process",
+    "finalisedDate": null
+  },
+  {
+    "id": "5e0b34ff-70ae-49c9-905b-ef8e23dab4bb",
+    "lodgeDate": "2026-01-28",
+    "applicantName": "Shifat",
+    "furtherAssessmentDate": null,
+    "university": "Melbourne Institute of Technology",
+    "course": "Bachelor Program",
+    "status": "Under Process",
+    "finalisedDate": null
+  },
+  {
+    "id": "47b5173b-3ed7-42df-99e0-daaea8c5ca4c",
+    "lodgeDate": "2026-01-30",
+    "applicantName": "Shakil",
+    "furtherAssessmentDate": null,
+    "university": "Deakin University",
+    "course": "Diploma of Business",
+    "status": "Under Process",
+    "finalisedDate": null
+  },
+  {
+    "id": "b916bdf3-70fb-4b53-9874-7f77e2b5f661",
+    "lodgeDate": "2026-02-06",
+    "applicantName": "Hasan",
+    "furtherAssessmentDate": null,
+    "university": "Charles Sturt University",
+    "course": "Bachelor of IT",
+    "status": "Under Process",
+    "finalisedDate": null
+  },
+  {
+    "id": "d9102e25-1cb3-4a35-b02b-d405a635afcb",
+    "lodgeDate": "2026-02-10",
+    "applicantName": "Lihaj",
+    "furtherAssessmentDate": null,
+    "university": "CQ University",
+    "course": "Master of Science",
+    "status": "Under Process",
+    "finalisedDate": null
+  },
+  {
+    "id": "beb01ec0-1c57-418e-a5c5-72c852669b49",
+    "lodgeDate": "2026-02-05",
+    "applicantName": "Ruhan",
+    "furtherAssessmentDate": null,
+    "university": "Victoria University",
+    "course": "Bachelor of Science",
+    "status": "Under Process",
+    "finalisedDate": null
+  },
+  {
+    "id": "065b4078-ee05-47ae-b08a-a1124c999d17",
+    "lodgeDate": "2026-01-26",
+    "applicantName": "Ifad",
+    "furtherAssessmentDate": null,
+    "university": "Murdoch University",
+    "course": "Bachelor of IT",
+    "status": "Under Process",
+    "finalisedDate": null
+  },
+  {
+    "id": "1217e86f-4172-4504-92e5-99b5d442a6ec",
+    "lodgeDate": "2026-02-17",
+    "applicantName": "Mahfuz ",
+    "furtherAssessmentDate": null,
+    "university": "Torrens University",
+    "course": "Cybersecurity",
+    "status": "Under Process",
+    "finalisedDate": null
+  },
+  {
+    "id": "53962109-d618-4d14-ad34-503e00667140",
+    "lodgeDate": "2026-02-08",
+    "applicantName": "Shuvro",
+    "furtherAssessmentDate": null,
+    "university": "Sydney Met",
+    "course": "Diploma",
+    "status": "Under Process",
+    "finalisedDate": null
+  },
+  {
+    "id": "2e94a95e-8b25-42a7-8081-1e1303a7af96",
+    "lodgeDate": "2026-01-04",
+    "applicantName": "Alvi",
+    "furtherAssessmentDate": null,
+    "university": "Edith Cowan University",
+    "course": "Bachelor Program",
     "status": "Under Process",
     "finalisedDate": null
   }
