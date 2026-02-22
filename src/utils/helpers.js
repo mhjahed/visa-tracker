@@ -60,6 +60,9 @@ const universityLogoMap = {
   'Institution': 'Undefined.png',
   'Queensland University of Technology': 'Queensland University of Technology.jpg',
   'University of Southern Queensland': 'University of Southern Queensland.png',
+  'Lincoln Instiute of Higher Education':'Lincoln Instiute of Higher Education.png',
+  'University of Melbourne':'University of Melbourne.png',
+  'Ultimate Institute of Australia':'UIA.jpg'
 }
 
 // List of all universities for dropdowns
