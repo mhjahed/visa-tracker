@@ -4048,5 +4048,125 @@
     "course": "Bachelor Program",
     "status": "Under Process",
     "finalisedDate": null
+  },
+  {
+    "id": "ec1d080c-50af-4a88-82cf-d0728e1b416b",
+    "lodgeDate": "2026-01-28",
+    "applicantName": "Arafat",
+    "furtherAssessmentDate": null,
+    "university": "Murdoch University",
+    "course": "Masters Program",
+    "status": "Under Process",
+    "finalisedDate": null
+  },
+  {
+    "id": "d3102d3a-d766-4c04-a6c5-25c6f1b1258a",
+    "lodgeDate": "2026-01-29",
+    "applicantName": "Drubo Roy",
+    "furtherAssessmentDate": "2026-02-03",
+    "university": "Edith Cowan University",
+    "course": "AEP/EAP",
+    "status": "Under Process",
+    "finalisedDate": null
+  },
+  {
+    "id": "4113ee63-12b4-4d4b-842d-445deac8b6dd",
+    "lodgeDate": "2026-01-20",
+    "applicantName": "Ajay Karmaker (with spouse)",
+    "furtherAssessmentDate": null,
+    "university": "University of Canberra",
+    "course": "Masters Program",
+    "status": "Granted",
+    "finalisedDate": "2026-02-20"
+  },
+  {
+    "id": "e08fa35f-bd6d-471b-b8ec-4a3c45223735",
+    "lodgeDate": "2026-02-08",
+    "applicantName": "Maruf",
+    "furtherAssessmentDate": null,
+    "university": "University of Wollongong",
+    "course": "Bachelor of IT",
+    "status": "Under Process",
+    "finalisedDate": null
+  },
+  {
+    "id": "a4d9bd6e-bb0e-4301-8b86-aa59c9de0e44",
+    "lodgeDate": "2026-01-20",
+    "applicantName": "Mehedi",
+    "furtherAssessmentDate": null,
+    "university": "Melbourne Institute of Technology",
+    "course": "Masters Program",
+    "status": "Under Process",
+    "finalisedDate": null
+  },
+  {
+    "id": "bbc1bb35-2534-4c05-877d-3e7f2808c563",
+    "lodgeDate": "2026-01-05",
+    "applicantName": "Seyam",
+    "furtherAssessmentDate": null,
+    "university": "Flinders University",
+    "course": "Bachelor of IT",
+    "status": "Under Process",
+    "finalisedDate": null
+  },
+  {
+    "id": "7683e1f4-afd1-449d-ad6c-eeab1443256d",
+    "lodgeDate": "2026-01-30",
+    "applicantName": "Alif",
+    "furtherAssessmentDate": null,
+    "university": "Victoria University",
+    "course": "Cybersecurity",
+    "status": "Under Process",
+    "finalisedDate": null
+  },
+  {
+    "id": "b0de1173-a88d-4b01-8236-ac491157ed0d",
+    "lodgeDate": "2026-01-30",
+    "applicantName": "Ahad",
+    "furtherAssessmentDate": null,
+    "university": "University of Wollongong",
+    "course": "",
+    "status": "Under Process",
+    "finalisedDate": null
+  },
+  {
+    "id": "ffd59c0c-378c-4cd5-b407-fa02aff7a328",
+    "lodgeDate": "2026-02-06",
+    "applicantName": "Arian",
+    "furtherAssessmentDate": null,
+    "university": "Victoria University",
+    "course": "Bachelor of IT",
+    "status": "Under Process",
+    "finalisedDate": null
+  },
+  {
+    "id": "cecfa8db-6e49-4af9-b5f5-f4e704181e7c",
+    "lodgeDate": "2026-02-18",
+    "applicantName": "Dip",
+    "furtherAssessmentDate": null,
+    "university": "Melbourne Institute of Technology",
+    "course": "Bachelor Program",
+    "status": "Under Process",
+    "finalisedDate": null
+  },
+  {
+    "id": "a9ff24bc-3bd6-4837-8524-e3ee40a8690f",
+    "lodgeDate": "2026-02-10",
+    "applicantName": "Santosh",
+    "furtherAssessmentDate": null,
+    "university": "University of Melbourne",
+    "course": "Masters Program",
+    "status": "Under Process",
+    "finalisedDate": null
+  },
+  {
+    "id": "8095a4b7-c16b-4811-bd9b-cf646fefbd90",
+    "lodgeDate": "2026-01-20",
+    "applicantName": "Sajidul Islam",
+    "furtherAssessmentDate": "2026-01-26",
+    "university": "Lincoln Instiute of Higher Education",
+    "course": "Bachelor of Business",
+    "status": "Under Process",
+    "finalisedDate": null
   }
 ]
