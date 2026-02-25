@@ -4,7 +4,9 @@ import { useAppContext } from '../context/AppContext'
 import SearchBar from '../components/SearchBar'
 import ApplicationsTable from '../components/ApplicationsTable'
 import BarChart from '../components/Charts/BarChart'
+import TrendChart30Days from '../components/Charts/TrendChart30Days'
 import PieChart from '../components/Charts/PieChart'
+import UpdateInfo from '../components/UpdateInfo'
 import LineChart from '../components/Charts/LineChart'
 import { 
   FaPlane, 
@@ -112,6 +114,8 @@ const Home = () => {
           </div>
         </div>
       </section>
+  {/* Update Info Section */}
+      <UpdateInfo />
 
       {/* University Logos Section */}
       <section className="universities-section">
@@ -236,6 +240,10 @@ const Home = () => {
             <div className="chart-card">
               <BarChart stats={stats} />
             </div>
+                      {/* 30-Day Trend Chart - Full Width */}
+          <div className="chart-card full-width">
+            <TrendChart30Days applications={applications} />
+          </div>
             <div className="chart-card">
               <PieChart stats={stats} title="Overall Distribution" />
             </div>
@@ -245,6 +253,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+      
     </div>
   )
 }
