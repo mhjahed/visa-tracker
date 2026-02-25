@@ -1,0 +1,496 @@
+/* ================================
+   UPDATE INFO SECTION
+   ================================ */
+
+.update-info-section {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.update-info-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* ================================
+   UPDATE CARD BASE
+   ================================ */
+
+.update-card {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.update-card:hover {
+  transform: translateY(-6px);
+}
+
+.update-card-glow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  transition: height 0.3s ease;
+}
+
+.update-card:hover .update-card-glow {
+  height: 6px;
+}
+
+.update-card.last-update .update-card-glow {
+  background: linear-gradient(90deg, #22c55e, #4ade80, #86efac);
+}
+
+.update-card.next-update .update-card-glow {
+  background: linear-gradient(90deg, #f59e0b, #fbbf24, #fcd34d);
+}
+
+.update-card.next-update.expired .update-card-glow {
+  background: linear-gradient(90deg, #06b6d4, #22d3ee, #67e8f9);
+  animation: shimmer 2s infinite;
+}
+
+@keyframes shimmer {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.6; }
+}
+
+.update-card-inner {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 24px;
+  position: relative;
+}
+
+/* ================================
+   LIGHT MODE STYLES
+   ================================ */
+
+.update-info-section.light .update-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.update-info-section.light .update-card:hover {
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
+  border-color: #d1d5db;
+}
+
+.update-info-section.light .update-card-icon {
+  background: linear-gradient(135deg, #f3f4f6, #e5e7eb);
+}
+
+.update-info-section.light .update-card.last-update .update-card-icon {
+  background: linear-gradient(135deg, #dcfce7, #bbf7d0);
+  color: #16a34a;
+}
+
+.update-info-section.light .update-card.next-update .update-card-icon {
+  background: linear-gradient(135deg, #fef3c7, #fde68a);
+  color: #d97706;
+}
+
+.update-info-section.light .update-card.next-update.expired .update-card-icon {
+  background: linear-gradient(135deg, #cffafe, #a5f3fc);
+  color: #0891b2;
+}
+
+.update-info-section.light .update-card-label {
+  color: #6b7280;
+}
+
+.update-info-section.light .update-card-value {
+  color: #111827;
+}
+
+.update-info-section.light .update-card-footer {
+  color: #9ca3af;
+}
+
+.update-info-section.light .countdown-value-wrapper {
+  background: linear-gradient(135deg, #fef3c7, #fde68a);
+}
+
+.update-info-section.light .countdown-value {
+  color: #92400e;
+}
+
+.update-info-section.light .update-card.expired .countdown-value-wrapper {
+  background: linear-gradient(135deg, #cffafe, #a5f3fc);
+}
+
+.update-info-section.light .update-card.expired .countdown-value {
+  color: #0e7490;
+}
+
+.update-info-section.light .countdown-label {
+  color: #6b7280;
+}
+
+.update-info-section.light .countdown-separator {
+  color: #d1d5db;
+}
+
+.update-info-section.light .header-icon {
+  color: #9ca3af;
+}
+
+.update-info-section.light .expired-text {
+  color: #0891b2;
+}
+
+/* ================================
+   DARK MODE STYLES
+   ================================ */
+
+.update-info-section.dark .update-card {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+}
+
+.update-info-section.dark .update-card:hover {
+  border-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 12px 50px rgba(0, 0, 0, 0.4);
+}
+
+.update-info-section.dark .update-card-icon {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.update-info-section.dark .update-card.last-update .update-card-icon {
+  background: linear-gradient(135deg, rgba(34, 197, 94, 0.2), rgba(74, 222, 128, 0.2));
+  color: #4ade80;
+}
+
+.update-info-section.dark .update-card.next-update .update-card-icon {
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.2), rgba(251, 191, 36, 0.2));
+  color: #fbbf24;
+}
+
+.update-info-section.dark .update-card.next-update.expired .update-card-icon {
+  background: linear-gradient(135deg, rgba(6, 182, 212, 0.2), rgba(34, 211, 238, 0.2));
+  color: #22d3ee;
+}
+
+.update-info-section.dark .update-card-label {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.update-info-section.dark .update-card-value {
+  color: #ffffff;
+}
+
+.update-info-section.dark .update-card-footer {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.update-info-section.dark .countdown-value-wrapper {
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.2), rgba(251, 191, 36, 0.2));
+}
+
+.update-info-section.dark .countdown-value {
+  color: #fbbf24;
+}
+
+.update-info-section.dark .update-card.expired .countdown-value-wrapper {
+  background: linear-gradient(135deg, rgba(6, 182, 212, 0.2), rgba(34, 211, 238, 0.2));
+}
+
+.update-info-section.dark .update-card.expired .countdown-value {
+  color: #22d3ee;
+}
+
+.update-info-section.dark .countdown-label {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.update-info-section.dark .countdown-separator {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.update-info-section.dark .header-icon {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.update-info-section.dark .expired-text {
+  color: #22d3ee;
+}
+
+/* ================================
+   CARD ICON
+   ================================ */
+
+.update-card-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 16px;
+  font-size: 1.6rem;
+  flex-shrink: 0;
+}
+
+/* ================================
+   CARD CONTENT
+   ================================ */
+
+.update-card-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.update-card-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.header-icon {
+  font-size: 0.85rem;
+}
+
+.header-icon.spin {
+  animation: spin 3s linear infinite;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.update-card-label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.update-card-value {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+
+.expired-text {
+  animation: pulse-text 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse-text {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.6; }
+}
+
+.update-card-footer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.8rem;
+}
+
+/* ================================
+   COUNTDOWN TIMER
+   ================================ */
+
+.countdown-timer {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.countdown-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.countdown-value-wrapper {
+  padding: 8px 12px;
+  border-radius: 10px;
+  margin-bottom: 4px;
+}
+
+.countdown-value {
+  font-size: 1.6rem;
+  font-weight: 800;
+  font-family: 'Courier New', monospace;
+  line-height: 1;
+}
+
+.countdown-label {
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.countdown-separator {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* ================================
+   BADGES
+   ================================ */
+
+.update-card-badge {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.update-card-badge.success {
+  background: linear-gradient(135deg, rgba(34, 197, 94, 0.2), rgba(74, 222, 128, 0.2));
+  color: #22c55e;
+  border: 1px solid rgba(34, 197, 94, 0.3);
+}
+
+.update-card-badge.upcoming {
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.2), rgba(251, 191, 36, 0.2));
+  color: #f59e0b;
+  border: 1px solid rgba(245, 158, 11, 0.3);
+}
+
+.update-card-badge.pending {
+  background: linear-gradient(135deg, rgba(6, 182, 212, 0.2), rgba(34, 211, 238, 0.2));
+  color: #06b6d4;
+  border: 1px solid rgba(6, 182, 212, 0.3);
+}
+
+.badge-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  animation: pulse-dot 2s ease-in-out infinite;
+}
+
+.update-card-badge.success .badge-dot {
+  background: #22c55e;
+}
+
+.update-card-badge.upcoming .badge-dot {
+  background: #f59e0b;
+}
+
+.update-card-badge.pending .badge-dot {
+  background: #06b6d4;
+}
+
+@keyframes pulse-dot {
+  0%, 100% { 
+    opacity: 1; 
+    transform: scale(1);
+  }
+  50% { 
+    opacity: 0.5; 
+    transform: scale(0.7);
+  }
+}
+
+/* ================================
+   ANIMATIONS
+   ================================ */
+
+.shake {
+  animation: shake 0.5s ease-in-out infinite;
+}
+
+@keyframes shake {
+  0%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(-10deg); }
+  75% { transform: rotate(10deg); }
+}
+
+.flip {
+  animation: flip 2s ease-in-out infinite;
+}
+
+@keyframes flip {
+  0%, 100% { transform: rotateY(0deg); }
+  50% { transform: rotateY(180deg); }
+}
+
+/* ================================
+   RESPONSIVE
+   ================================ */
+
+@media (max-width: 900px) {
+  .update-info-container {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  .update-info-section {
+    padding: 16px;
+  }
+  
+  .update-card-inner {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .update-card-icon {
+    width: 50px;
+    height: 50px;
+    font-size: 1.3rem;
+  }
+  
+  .update-card-header {
+    justify-content: center;
+  }
+  
+  .update-card-footer {
+    justify-content: center;
+  }
+  
+  .countdown-timer {
+    justify-content: center;
+  }
+  
+  .countdown-value {
+    font-size: 1.3rem;
+  }
+  
+  .countdown-value-wrapper {
+    padding: 6px 10px;
+  }
+  
+  .update-card-badge {
+    position: relative;
+    top: 0;
+    right: 0;
+    margin-top: 12px;
+  }
+  
+  .update-card-value {
+    font-size: 1rem;
+  }
+}
