@@ -15,9 +15,13 @@ const UpdateInfo = () => {
 
   // ============================================
   // 🔧 DEVELOPER: CHANGE THESE DATES AS NEEDED
+  // Format: "YYYY-MM-DDTHH:MM:SS"
+  // Example: "2026-02-25T22:00:00" = Feb 25, 2026 at 10:00 PM
+  // 
+  // ⚠️ IMPORTANT: Make sure NEXT_UPDATE is a FUTURE date!
   // ============================================
-  const LAST_UPDATE = "2024-02-25T10:30:00"  // Format: YYYY-MM-DDTHH:MM:SS
-  const NEXT_UPDATE = "2024-02-25T22:00:00"  // Format: YYYY-MM-DDTHH:MM:SS
+  const LAST_UPDATE = "2026-02-25T10:30:00"
+  const NEXT_UPDATE = "2026-02-25T22:00:00"  // Must be in the future!
   // ============================================
 
   const [timeLeft, setTimeLeft] = useState({
@@ -48,6 +52,11 @@ const UpdateInfo = () => {
       const now = new Date().getTime()
       const target = new Date(NEXT_UPDATE).getTime()
       const difference = target - now
+
+      // Debug log (remove in production)
+      // console.log('Now:', new Date(now).toLocaleString())
+      // console.log('Target:', new Date(target).toLocaleString())
+      // console.log('Difference (ms):', difference)
 
       if (difference <= 0) {
         setIsExpired(true)
