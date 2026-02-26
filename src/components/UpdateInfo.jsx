@@ -20,8 +20,8 @@ const UpdateInfo = () => {
   // 
   // ⚠️ IMPORTANT: Make sure NEXT_UPDATE is a FUTURE date!
   // ============================================
-  const LAST_UPDATE = "2026-02-25T10:30:00"
-  const NEXT_UPDATE = "2026-02-25T22:00:00"  // Must be in the future!
+  const LAST_UPDATE = "2026-02-26T11:30:00"
+  const NEXT_UPDATE = "2026-02-27T22:00:00"  // Must be in the future!
   // ============================================
 
   const [timeLeft, setTimeLeft] = useState({
